@@ -1,0 +1,9 @@
+importers:
+  .:
+    specifiers: {}
+  packages/dummy-package-1:
+    devDependencies:
+      dummy-package-2: 'link:../dummy-package-2'
+    specifiers:
+      dummy-package-2: 'workspace:^1.0.0'
+lockfileVersion: 5.1
